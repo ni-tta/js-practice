@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript and HTTP Requests Practice</title>
+
+  <link rel="stylesheet" href="assets/css/vendor/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Click to see a different random color</h1>
+    <div class="colors">
+      <button id="color__gen">
+      </button>
+    </div>
+
+   <h1 class="title">Contact</h1>
+    <form action="#" id="contact__form">
+      <label class="input__label" for="name">Name</label>
+      <input class="input__field" type="text" name="name" id="name" required />
+      <label class="input__label" for="email">Email</label>
+      <input class="input__field" type="text" name="email" id="email" required />
+      <label class="input__label" for="message">Message</label>
+      <textarea class="input__field" id="message" name="message"></textarea>
+      <input class="input__field" type="submit" value="submit" id="submit">
+      <div id="display__message"></div>
+    </form>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="assets/js/vendor/superagent.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

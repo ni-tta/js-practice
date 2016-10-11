@@ -1,0 +1,56 @@
+/*
+ * Single Side
+ */
+/*
+ * Single Corner
+ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.6;
+  color: black; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  position: relative;
+  padding: 0;
+  background: none; }
+
+body {
+  background: white; }
+
+input {
+  display: block; }
+
+textarea {
+  display: block; }
+
+.container {
+  padding: 20px; }
+  .container #contact__form .input__label {
+    display: block;
+    padding: 2px 0; }
+  .container #contact__form .input__field {
+    margin-bottom: 15px; }
+    
+  .container #contact__form #submit {
+    height:70px;
+    width:150px;
+    background: black;
+    color: white;
+    outline: none;
+  }
+  .container #contact__form #display__message {
+    height: 50px; }
+  .container .colors button#color__gen {
+    height:70px;
+    width:150px;
+    display: inline-block;
+    background: black;
+    outline:none;
+    }
+
